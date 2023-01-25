@@ -22,8 +22,8 @@ Case realizado pela Squad AFSS visando uma experiência real do mercado de traba
 
 
 ### :girl::boy: Desenvolvedores
-| [<img src="https://avatars.githubusercontent.com/u/98850699?v=4" width=115><br><sub>José Mota</sub>](https://github.com/eujosee) |  [<img src="https://avatars.githubusercontent.com/u/101880116?v=4" width=115><br><sub>Liza França</sub>](https://github.com/LiihDev) |  [<img src="https://avatars.githubusercontent.com/u/106276636?v=4" width=115><br><sub>Mateus Henrique</sub>](https://github.com/Mateus2611) |  [<img src="https://avatars.githubusercontent.com/u/98955381?v=4" width=115><br><sub>Nathaly Ferreira</sub>](https://github.com/NathalyFerreiraF) |  [<img src="https://avatars.githubusercontent.com/u/91340154?v=4" width=115><br><sub>Paulo Oliveira</sub>](https://github.com/Paulo-HSO) 
-| :---: | :---: | :---: | :---: | :---: |
+  [<img src="https://avatars.githubusercontent.com/u/101880116?v=4" width=115><br><sub>Liza França</sub>](https://github.com/LiihDev) |  [<img src="https://avatars.githubusercontent.com/u/106276636?v=4" width=115><br><sub>Mateus Henrique</sub>](https://github.com/Mateus2611) |  [<img src="https://avatars.githubusercontent.com/u/98955381?v=4" width=115><br><sub>Nathaly Ferreira</sub>](https://github.com/NathalyFerreiraF) |  [<img src="https://avatars.githubusercontent.com/u/91340154?v=4" width=115><br><sub>Paulo Oliveira</sub>](https://github.com/Paulo-HSO) 
+| :---: | :---: | :---: | :---: |
 
 ### :pray: Agradecimentos
 
