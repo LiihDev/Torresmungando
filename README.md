@@ -16,9 +16,9 @@ Case realizado pela Squad AFSS visando uma experiência real do mercado de traba
 ### :computer: Tecnologias
 
 
-### :older_man: Professores Envolvidos:
-| [<img src="https://avatars.githubusercontent.com/u/37378451?v=4" width=115><br><sub>Atila Olivi</sub>](https://github.com/profatila) |  [<img src="https://avatars.githubusercontent.com/u/87538806?v=4" width=115><br><sub>Sergio Gal</sub>](https://github.com/professor-sergio) |  
-| :---: | :---: |
+### :older_man: Professor Envolvido:
+| [<img src="https://avatars.githubusercontent.com/u/37378451?v=4" width=115><br><sub>Atila Olivi</sub>](https://github.com/profatila) 
+| :---: |
 
 
 ### :girl::boy: Desenvolvedores
