@@ -1,4 +1,4 @@
-import { StatusBar, SafeAreaView, StyleSheet, Text } from 'react-native';
+import { StatusBar, SafeAreaView, StyleSheet } from 'react-native';
 
 import Routes from './src/routes';
 
