@@ -1,15 +1,15 @@
 import React from 'react';
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
-import { NavigationContainer } from '@react-navigation/native';
 
-import Entrada from './pages/Entrada/index';
-import Principal from './pages/Principal/index';
-import Sobremesa from './pages/Sobremesa/index';
-import Vegano from './pages/Vegano/index';
+import Entrada from '../pages/Entrada/index';
+import Principal from '../pages/Principal/index';
+import Sobremesa from '../pages/Sobremesa/index';
+import Vegano from '../pages/Vegano/index';
+import { NavigationContainer } from '@react-navigation/native';
 
 const Tab = createMaterialTopTabNavigator();
 
-export default function Routes() {
+export default function TabNavigation() {
   return (
     <NavigationContainer>
       <Tab.Navigator

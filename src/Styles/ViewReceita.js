@@ -1,14 +1,13 @@
 import React from "react";
-import { StyleSheet, Text, Image, View } from "react-native";
+import { StyleSheet, Text, Image, View, TouchableOpacity, ImageBackground } from "react-native";;
 
-export default function ViewReceita() {
+export default function ViewReceita( props ) {
     return(
         <View style={styles.container}>
-            <Text>Hello World!</Text>
-            <Image
-            source={null}
-            style={styles.imagem}
-          />
+            <TouchableOpacity onPress={props.receita}>
+                <ImageBackground source={props.image} resizeMode="cover" style={styles.image} />
+            </TouchableOpacity>
+            <Text style={styles.text}>{props.titulo}</Text>
         </View>
     );
 }
@@ -16,10 +15,24 @@ export default function ViewReceita() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-    },
-    imagem: {
-        backgroundColor: 'red',
-        width: 100,
-        height: 80,
-    },
+        alignSelf: 'center',
+        margin: 15,
+      },
+      image: {
+        width: 340,
+        height: 145,
+        justifyContent: 'center',
+        backgroundColor: 'blue',
+        borderRadius: 10,
+        borderBottomStartRadius: 0,
+      },
+      text: {
+        color: '#fff',
+        backgroundColor: '#339989',
+        width: 170,
+        paddingTop: 2,
+        paddingLeft: 5,
+        borderBottomRightRadius: 10,
+        borderBottomLeftRadius: 10,
+      }
 });
