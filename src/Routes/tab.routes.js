@@ -16,7 +16,8 @@ export default function TabNavigation() {
         screenOptions={{
           tabBarLabelStyle: { fontSize: 12 },
         }}
-        initialRouteName="Entradas">
+        initialRouteName="Entradas"
+        >
         <Tab.Screen name="Entradas" component={Entrada} />
 
         <Tab.Screen name="Principais" component={Principal} />
