@@ -1,59 +1,35 @@
-import React, { useState } from 'react';
-import { ScrollView, View, StyleSheet } from 'react-native';
+import React from 'react';
+import { ScrollView } from 'react-native';
 
 import ViewReceitas from '../../Styles/ViewReceita';
+import { receitas } from '../../Receitas/receitas';
 
-export default function Entrada({ navigation }) {
+const receitaImagem = {
+    batatinha: require('../../../assets/img/batatinha.jpg'),
+    camarao: require('../../../assets/img/camarao_moranga.jpg'),
+    cebola: require('../../../assets/img/cebola_bacon.jpeg'),
+    tomate: require('../../../assets/img/compota_tomate.jpg'),
+    salame: require('../../../assets/img/salame_queijo_azeitona.jpg'),
+    sanduiche: require('../../../assets/img/damasco_creamchesse.jpg'),
+};
 
-  const [items] = useState([
-    {
-        id: 1,
-        tituloReceita: 'Pudim',
-        image: require('../../../assets/favicon.png'),
-    },
-    {
-        id: 2,
-        tituloReceita: 'Bolo de ameixa',
-        image: require('../../../assets/splash.png'),
-    },
-]);
+export default function Entrada({ navigation }) {   
 
 function goToReceitas() {
   navigation.navigate("Veganos");
 }
 
   return (
-    <ScrollView style={styles.container}>
-            <View
-                style={styles.scrollContainer}
-                contentContainerStyle={styles.itemsContainer}>
-                    {items.map((item) => {
-                        return (
-                            <ViewReceitas
-                                key={item.id}
-                                id={item.id}
-                                titulo={item.tituloReceita}
-                                image={item.image}
-                                receita={goToReceitas}
-                            />
-                        );
-                    })}
-            </View>
-        </ScrollView>
+    <ScrollView>
+            {receitas.entrada.map((entradas) => {
+                return(
+                    <ViewReceitas 
+                    titulo={entradas.nome}
+                    image={receitaImagem[entradas.img]}
+                    receita={goToReceitas}
+                    />
+                );
+            })}
+    </ScrollView>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-      flex: 1,
-  },
-  scrollContainer: {
-      flex: 1,
-  },
-  itemsContainer: {
-      flex: 1,
-      marginTop: 10,
-      padding: 20,
-      borderRadius: 20,
-  },
-});

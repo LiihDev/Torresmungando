@@ -6,8 +6,8 @@ export default function ViewReceita( props ) {
         <View style={styles.container}>
             <TouchableOpacity onPress={props.receita}>
                 <ImageBackground source={props.image} resizeMode="cover" style={styles.image} />
+                <Text style={styles.text}>{props.titulo}</Text>
             </TouchableOpacity>
-            <Text style={styles.text}>{props.titulo}</Text>
         </View>
     );
 }
@@ -22,16 +22,17 @@ const styles = StyleSheet.create({
         width: 340,
         height: 145,
         justifyContent: 'center',
-        backgroundColor: 'blue',
+        overflow: 'hidden',
         borderRadius: 10,
         borderBottomStartRadius: 0,
       },
       text: {
         color: '#fff',
         backgroundColor: '#339989',
-        width: 170,
-        paddingTop: 2,
+        width: 220,
+        padding: 2,
         paddingLeft: 5,
+        paddingRight: 5,
         borderBottomRightRadius: 10,
         borderBottomLeftRadius: 10,
       }
