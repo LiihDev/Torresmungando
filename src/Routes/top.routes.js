@@ -9,9 +9,8 @@ import { NavigationContainer } from '@react-navigation/native';
 
 const Tab = createMaterialTopTabNavigator();
 
-export default function TabNavigation() {
+export default function TopNavigator() {
   return (
-    <NavigationContainer>
       <Tab.Navigator
         screenOptions={{
           tabBarLabelStyle: { fontSize: 12 },
@@ -26,6 +25,5 @@ export default function TabNavigation() {
 
         <Tab.Screen name="Veganos" component={Vegano} />
       </Tab.Navigator>
-    </NavigationContainer>
   );
 }

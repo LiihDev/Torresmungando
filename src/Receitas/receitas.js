@@ -123,7 +123,6 @@ export const receitas = {
       {
         nome: "Panqueca de carne moída",
         ingredientes: [
-          "RECHEIO",
           "500g de carne moída",
           "Alho picado 4 dentes",
           "Cebola picada 1 unidade",
@@ -136,7 +135,6 @@ export const receitas = {
           "Pimenta do reino a gosto",
           "Orégano a gosto",
           "Salsinha a gosto",
-          "MASSA",
           "Farinha de trigo 2 xícaras (240g)",
           "Leite 2 xícaras (480 mL)",
           "Ovo 2 unidades",

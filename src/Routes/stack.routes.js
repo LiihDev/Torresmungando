@@ -2,11 +2,9 @@ import * as React from 'react';
 
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { NavigationContainer } from "@react-navigation/native";
+import TopNavigator from './top.routes';
 
-import Entrada from '../pages/Entrada';
-import Principal from '../pages/Principal';
-import Sobremesa from '../pages/Sobremesa';
-import Vegano from '../pages/Vegano';
+import Receita from '../pages/Receita';
 
 const { Screen, Navigator } = createNativeStackNavigator();
 
@@ -15,12 +13,15 @@ function MyStack() {
     <NavigationContainer>
       <Navigator>
         <Screen
-          name="Entrada"
-          component={Entrada}
+        options={{
+          tabBarShowLabel: false,
+          headerShown: false}}
+          name="Tab"
+          component={TopNavigator}
         />
-        <Screen name="Principal" component={Principal} />
-        <Screen name="Sobremesas" component={Sobremesa} />
-        <Screen name="Vegano" component={Vegano} />
+        <Screen name="Receita" component={Receita} 
+        options={{
+          tabBarShowLabel: false}} />
       </Navigator>
     </NavigationContainer>
   );

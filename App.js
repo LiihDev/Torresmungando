@@ -1,13 +1,12 @@
 import { StatusBar, SafeAreaView, StyleSheet } from 'react-native';
 
-import TabNavigation from './src/Routes/tab.routes';
-import ViewTutorial from './src/Styles/ViewTutorial';
-
+import TabNavigation from './src/Routes/top.routes';
+import MyStack from './src/Routes/stack.routes';
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
-      {/* <TabNavigation /> */}
-      <ViewTutorial />
+      <MyStack/>
+      {/* <ViewTutorial /> */}
       <StatusBar backgroundColor="white" barStyle="dark-content" />
     </SafeAreaView>
   );
