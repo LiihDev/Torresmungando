@@ -6,7 +6,6 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <MyStack/>
-      {/* <ViewTutorial /> */}
       <StatusBar backgroundColor="white" barStyle="dark-content" />
     </SafeAreaView>
   );

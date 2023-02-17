@@ -15,13 +15,21 @@ function MyStack() {
         <Screen
         options={{
           tabBarShowLabel: false,
-          headerShown: false}}
+          headerShown: false
+        }
+      }
           name="Tab"
           component={TopNavigator}
         />
         <Screen name="Receita" component={Receita} 
-        options={{
-          tabBarShowLabel: false}} />
+         options={{
+          title: null,
+          headerTintColor: '#fff',
+          headerStyle: {
+            backgroundColor: '#339989',
+          }
+        }
+      } />
       </Navigator>
     </NavigationContainer>
   );
