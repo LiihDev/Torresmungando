@@ -6,7 +6,7 @@ export default function ViewReceita({ navigation, data }) {
   const receitaImagem = {
     panqueca: require('../../assets/img/panqueca_carne.jpg'),
     camarao: require('../../assets/img/camarao_moranga.jpg'),
-    risoto: require('../../assets/img/medalhao_file_risoto.jpg'),
+    baiao: require('../../assets/img/baiaoDois.jpeg'),
     lasanha: require('../../assets/img/lasanha.jpg'),
     frango: require('../../assets/img/fricace_frango.jpg'),
     batatinha: require('../../assets/img/batatinha.jpg'),
