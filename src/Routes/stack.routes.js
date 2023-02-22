@@ -15,7 +15,7 @@ function MyStack() {
         <Screen
         options={{
           tabBarShowLabel: false,
-          headerShown: false
+          headerShown: false,
         }
       }
           name="Tab"

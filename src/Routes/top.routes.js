@@ -6,14 +6,24 @@ import Principal from '../pages/Principal/index';
 import Sobremesa from '../pages/Sobremesa/index';
 import Vegano from '../pages/Vegano/index';
 import { NavigationContainer } from '@react-navigation/native';
+import { useFonts, Roboto_400Regular } from "@expo-google-fonts/roboto";
 
 const Tab = createMaterialTopTabNavigator();
 
 export default function TopNavigator() {
+
+  let [fontsLoaded] = useFonts({
+    Roboto_400Regular,
+  });
+
+  if (!fontsLoaded) {
+    return null;
+  }
+
   return (
       <Tab.Navigator
         screenOptions={{
-          tabBarLabelStyle: { fontSize: 12 },
+          tabBarLabelStyle: { fontSize: 12, fontFamily: 'Roboto_400Regular' },
         }}
         initialRouteName="Entradas"
         >

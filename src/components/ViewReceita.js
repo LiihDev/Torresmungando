@@ -1,6 +1,8 @@
 import React from "react";
 import { StyleSheet, Text, Image, View, TouchableOpacity, ImageBackground } from "react-native";
 
+import { useFonts, Roboto_400Regular } from "@expo-google-fonts/roboto";
+
 
 export default function ViewReceita({ navigation, data }) {
   const receitaImagem = {
@@ -25,6 +27,14 @@ export default function ViewReceita({ navigation, data }) {
     bolinhoArroz: require('../../assets/img/bolinho_de_arroz_vegan.jpg'),
     croqueteMandioca: require('../../assets/img/croquete_mandioca.jpg'),
     geleiaManga: require('../../assets/img/geleia_manga_vegan.jpg'),
+  }
+
+  let [fontsLoaded] = useFonts({
+    Roboto_400Regular,
+  });
+
+  if (!fontsLoaded) {
+    return null;
   }
 
   function goToReceitas() {
@@ -63,5 +73,6 @@ const styles = StyleSheet.create({
     paddingRight: 5,
     borderBottomRightRadius: 10,
     borderBottomLeftRadius: 10,
+    fontFamily: 'Roboto_400Regular',
   }
 });

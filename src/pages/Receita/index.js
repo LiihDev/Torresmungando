@@ -2,6 +2,8 @@ import React, { useState, useCallback } from "react";
 import { View, Text, ScrollView, StyleSheet, StatusBar } from "react-native"
 import YoutubePlayer from "react-native-youtube-iframe"
 
+import { useFonts, Roboto_400Regular, Roboto_700Bold } from "@expo-google-fonts/roboto";
+
 export default function Receita({route}){
 
     const [playing, setPlaying] = useState(false);
@@ -14,6 +16,15 @@ export default function Receita({route}){
     }, []);
 
     const receita = route.params
+
+    let [fontsLoaded] = useFonts({
+        Roboto_400Regular,
+        Roboto_700Bold
+      });
+    
+      if (!fontsLoaded) {
+        return null;
+      }
 
     return(
         <View style={styles.container}>
@@ -74,6 +85,7 @@ const styles = StyleSheet.create ({
     },
     title: {
         fontSize: 22,
+        fontFamily: 'Roboto_700Bold'
     },
     containerCreditos: {
         display: 'flex',
@@ -81,10 +93,12 @@ const styles = StyleSheet.create ({
     },
     creditos: {
         fontSize: 15,
+        fontFamily: 'Roboto_400Regular'
     },
     creditosPessoa: {
         color: '#339989',
         marginLeft: 5,
+        fontFamily: 'Roboto_400Regular'
     },
     containerFilters: {
         display: 'flex',
@@ -101,6 +115,7 @@ const styles = StyleSheet.create ({
         paddingBottom: 2,
         borderColor: '#339989',
         color: '#339989',
+        fontFamily: 'Roboto_400Regular'
     },
     containerReceita: {
         margin: 10,
@@ -112,11 +127,13 @@ const styles = StyleSheet.create ({
         width: 330,
         padding: 1,
         margin: 10,
+        fontFamily: 'Roboto_700Bold'
     },
     textReceita: {
         fontSize: 16,
         color: '#339989',
         margin: 5,
         paddingLeft: 10,
+        fontFamily: 'Roboto_400Regular'
     }
 })
