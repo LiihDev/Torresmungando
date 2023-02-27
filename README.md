@@ -13,8 +13,9 @@ Case realizado pela Squad AFSS visando uma experiência real do mercado de traba
 ### :book: Guia de Estilização
 
 
-### :computer: Tecnologias
-
+### :computer: Tecnologias e Ferramentas Utilizadas:
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="70" height="70" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-line.svg" width="70" height="70" />
 
 ### :older_man: Professor Envolvido:
 | [<img src="https://avatars.githubusercontent.com/u/37378451?v=4" width=115><br><sub>Atila Olivi</sub>](https://github.com/profatila) 
