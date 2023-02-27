@@ -32,7 +32,7 @@ export default function TopNavigator() {
           borderBottomWidth: 2,
         },
         tabBarIndicatorStyle: {
-          backgroundColor: "transparent",
+          backgroundColor: "#339989",
         },
         headerStyle:{
           borderTopWidth: 0,

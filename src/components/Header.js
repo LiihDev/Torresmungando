@@ -16,11 +16,10 @@ export default function Header() {
 const styles = StyleSheet.create({
   header: {
     // alignItems: "center",
-    width: '96%',
+    width: '95%',
     alignItems: "center",
     justifyContent: "center",
     backgroundColor: "#fff",
-    borderBottomWidth: 0,
-    
+    margin: 5
   },
 });

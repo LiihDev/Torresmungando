@@ -15,8 +15,8 @@ function MyStack() {
       <Navigator>
         <Screen
         options={{
-          headerTitle: ()=> <Header/>
-          
+          headerTitle: ()=> <Header/>,
+          headerShadowVisible: false
         }
         }
         
