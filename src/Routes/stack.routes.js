@@ -1,5 +1,5 @@
 import * as React from 'react';
-
+import Header from '../components/Header';
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { NavigationContainer } from "@react-navigation/native";
 import TopNavigator from './top.routes';
@@ -10,14 +10,16 @@ const { Screen, Navigator } = createNativeStackNavigator();
 
 function MyStack() {
   return (
-    <NavigationContainer>
+    <NavigationContainer 
+   >
       <Navigator>
         <Screen
         options={{
-          tabBarShowLabel: false,
-          headerShown: false,
+          headerTitle: ()=> <Header/>
+          
         }
-      }
+        }
+        
           name="Tab"
           component={TopNavigator}
         />
