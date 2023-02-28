@@ -33,6 +33,22 @@ A documentação do Torresmungando (por exemplo, arquivos .md na pasta ./docs) �
 ## :books: Referências:
 Ícones: https://www.flaticon.com/br/autores/flat-icons <br>
 Ilustrações e identidade visual: @art_lizzah <br>
-Vídeos e Receitas: <br>
+
+Receitas e Vídeos: https://www.youtube.com/watch?v=VRYGXEUZ6Vs <br>
+https://www.youtube.com/watch?v=xMYWqMLFv6s&t=301s <br>
+https://www.youtube.com/watch?v=IxLDshWYteA <br>
+https://www.youtube.com/watch?v=C5OBHCHAA1Q <br>
+https://www.youtube.com/watch?v=LDlsgfsbTS0&t=1s <br>
+https://www.youtube.com/watch?v=tvgM2v0GkIw <br>
+https://www.youtube.com/watch?v=rOujUqCjCiU <br>
+https://www.youtube.com/watch?v=F2-Va5jPg7Q <br>
+https://www.youtube.com/watch?v=TXVMPnvVAhM&t=4s <br>
+https://www.youtube.com/watch?v=2SUFQ19cQVw <br>
+https://www.youtube.com/watch?v=OCdVjnmXhqc <br>
+https://www.youtube.com/watch?v=kf2RWtoV4f0&t=1s <br>
+https://www.youtube.com/watch?v=pobqPedHD5w&t=1s <br>
+https://www.youtube.com/watch?v=rG1osb8STH0&t=2s <br>
+https://www.youtube.com/watch?v=XAU1wx2PPSE&t=168s <br>
+
 Tipografia: https://fonts.google.com/<br>
 Paleta de Cores: https://coolors.co/
