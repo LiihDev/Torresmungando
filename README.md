@@ -16,7 +16,17 @@ Reunir e otimizar uma seleção de receitas, com a possibilidade de assistir ví
 <a href="https://github.com/LiihDev/Torresmungando/blob/main/11.PNG"> Clique aqui para visualizar!</a>
 
 ## Como usar:
-<img src="https://github.com/LiihDev/Torresmungando/blob/main/2.jpg" width="700" height="600" />
+Escanei o QR Code e use o nosso aplicativo! OBS: É necessário ter instalado o aplicativo ExpoGo no seu aparelho.<br>
+
+Para Android: 
+exp://u.expo.dev/update/a5a2ad90-c7ad-4a91-a76e-f71ea89da216 <br>
+<img src="https://github.com/LiihDev/Torresmungando/blob/main/2.jpg" width="400" height="400" /> <br>
+
+Para IOS:
+exp://u.expo.dev/update/01a8bbc4-580b-4e09-9500-1e49566c3db5
+<img src="https://github.com/LiihDev/Torresmungando/blob/main/2.jpg" width="400" height="400" /> <br>
+
+
 
 
 ## :older_man: Professor Envolvido:
