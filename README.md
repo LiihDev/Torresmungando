@@ -15,6 +15,10 @@ Reunir e otimizar uma seleção de receitas, com a possibilidade de assistir ví
 ## :book: Style Guide
 <a href="https://github.com/LiihDev/Torresmungando/blob/main/11.PNG"> Clique aqui para visualizar!</a>
 
+## Como usar:
+<img src="https://github.com/LiihDev/Torresmungando/blob/main/2.jpg" width="700" height="600" />
+
+
 ## :older_man: Professor Envolvido:
 | [<img src="https://avatars.githubusercontent.com/u/37378451?v=4" width=115><br><sub>Atila Olivi</sub>](https://github.com/profatila) 
 | :---: |
