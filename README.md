@@ -35,7 +35,7 @@ No prompt de comando execute o seguinte comando:
 - npm start 
 - Escaneie o código QR e pronto! <br>
 
-- Escanei o QR Code e use o nosso aplicativo! OBS: É necessário ter instalado o aplicativo Expo Go no seu aparelho.<br>
+- Escanei o QR Code e use o nosso aplicativo! <br>
 
 Para Android: 
 exp://u.expo.dev/update/a5a2ad90-c7ad-4a91-a76e-f71ea89da216 <br>
