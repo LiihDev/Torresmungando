@@ -44,7 +44,7 @@ A documentação do Torresmungando (por exemplo, arquivos .md na pasta ./docs) �
 
 ## :books: Referências:
 Ícones: https://www.flaticon.com/br/autores/flat-icons <br>
-Ilustrações e identidade visual: @art_lizzah <br>
+Ilustrações e identidade visual: @art_lizzah e @ev.muniz <br>
 Receitas e Vídeos: https://www.youtube.com/watch?v=VRYGXEUZ6Vs <br>
 https://www.youtube.com/watch?v=xMYWqMLFv6s&t=301s <br>
 https://www.youtube.com/watch?v=IxLDshWYteA <br>
