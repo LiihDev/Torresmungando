@@ -15,8 +15,27 @@ Reunir e otimizar uma seleção de receitas, com a possibilidade de assistir ví
 ## :book: Style Guide
 <a href="https://github.com/LiihDev/Torresmungando/blob/main/11.PNG"> Clique aqui para visualizar!</a>
 
-## Como usar:
-Escanei o QR Code e use o nosso aplicativo! OBS: É necessário ter instalado o aplicativo Expo Go no seu aparelho.<br>
+
+## Como clonar e usar o repositório: 
+
+Entre no seguinte repositório:  https://github.com/LiihDev/Torresmungando 
+
+Pressione o botão “code” e copie o link do repositório: 
+
+No prompt de comando execute o seguinte comando:  
+
+- git clone https://github.com/LiihDev/Torresmungando.git -b mateus 
+- Após clonar o repositório execute o comando para entrar na pasta:  
+- cd Torresmungando 
+- No prompt de comando insira o seguinte comando:  
+- npm install 
+- npm install -g expo-cli 
+- Após isso instale o app do Expo Go 
+- No prompt de comando digite: 
+- npm start 
+- Escaneie o código QR e pronto! <br>
+
+- Escanei o QR Code e use o nosso aplicativo! OBS: É necessário ter instalado o aplicativo Expo Go no seu aparelho.<br>
 
 Para Android: 
 exp://u.expo.dev/update/a5a2ad90-c7ad-4a91-a76e-f71ea89da216 <br>
@@ -25,6 +44,7 @@ exp://u.expo.dev/update/a5a2ad90-c7ad-4a91-a76e-f71ea89da216 <br>
 Para IOS:
 exp://u.expo.dev/update/01a8bbc4-580b-4e09-9500-1e49566c3db5 <br>
 <img src="https://github.com/LiihDev/Torresmungando/blob/main/3.png" width="300" height="300" /> <br>
+
 
 
 ## :older_man: Professor Envolvido:
