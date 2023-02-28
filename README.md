@@ -16,17 +16,15 @@ Reunir e otimizar uma seleção de receitas, com a possibilidade de assistir ví
 <a href="https://github.com/LiihDev/Torresmungando/blob/main/11.PNG"> Clique aqui para visualizar!</a>
 
 ## Como usar:
-Escanei o QR Code e use o nosso aplicativo! OBS: É necessário ter instalado o aplicativo ExpoGo no seu aparelho.<br>
+Escanei o QR Code e use o nosso aplicativo! OBS: É necessário ter instalado o aplicativo Expo Go no seu aparelho.<br>
 
 Para Android: 
 exp://u.expo.dev/update/a5a2ad90-c7ad-4a91-a76e-f71ea89da216 <br>
-<img src="https://github.com/LiihDev/Torresmungando/blob/main/2.jpg" width="400" height="400" /> <br>
+<img src="https://github.com/LiihDev/Torresmungando/blob/main/2.jpg" width="300" height="300" /> <br>
 
 Para IOS:
-exp://u.expo.dev/update/01a8bbc4-580b-4e09-9500-1e49566c3db5
-<img src="https://github.com/LiihDev/Torresmungando/blob/main/2.jpg" width="400" height="400" /> <br>
-
-
+exp://u.expo.dev/update/01a8bbc4-580b-4e09-9500-1e49566c3db5 <br>
+<img src="https://github.com/LiihDev/Torresmungando/blob/main/3.png" width="300" height="300" /> <br>
 
 
 ## :older_man: Professor Envolvido:
@@ -47,7 +45,6 @@ A documentação do Torresmungando (por exemplo, arquivos .md na pasta ./docs) �
 ## :books: Referências:
 Ícones: https://www.flaticon.com/br/autores/flat-icons <br>
 Ilustrações e identidade visual: @art_lizzah <br>
-
 Receitas e Vídeos: https://www.youtube.com/watch?v=VRYGXEUZ6Vs <br>
 https://www.youtube.com/watch?v=xMYWqMLFv6s&t=301s <br>
 https://www.youtube.com/watch?v=IxLDshWYteA <br>
@@ -63,6 +60,5 @@ https://www.youtube.com/watch?v=kf2RWtoV4f0&t=1s <br>
 https://www.youtube.com/watch?v=pobqPedHD5w&t=1s <br>
 https://www.youtube.com/watch?v=rG1osb8STH0&t=2s <br>
 https://www.youtube.com/watch?v=XAU1wx2PPSE&t=168s <br>
-
 Tipografia: https://fonts.google.com/<br>
 Paleta de Cores: https://coolors.co/
